@@ -30,3 +30,12 @@ const centimeterToKilometer = (centimeter) => {
 };
 
 centimeterToKilometer(100000);
+
+// No. 4 Write a code to format number as currency (IDR)
+
+const formatCurrencyIDR = (number) => {
+    let currencyIDR = `Rp. ${number.toLocaleString("id-ID")},00`;
+    console.log(currencyIDR);
+};
+
+formatCurrencyIDR(1000);

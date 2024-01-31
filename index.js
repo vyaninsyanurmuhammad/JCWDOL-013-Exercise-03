@@ -109,3 +109,14 @@ const sortThreeNumbers = (number1, number2, number3) => {
 };
 
 sortThreeNumbers(42, 27, 100);
+
+// No. 11 Write a code that shows 1 if the input is a string, 2 if the input is a number, and 3 for others data type
+
+const checkDataType = (data) => {
+    if (typeof data === "string") return console.log("1");
+    if (typeof data === "number") return console.log("2");
+
+    return console.log("3");
+};
+
+checkDataType("hello");

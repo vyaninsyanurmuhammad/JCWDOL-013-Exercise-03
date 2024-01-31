@@ -97,3 +97,15 @@ const largestOfTwo = (number1, number2) => {
 };
 
 largestOfTwo(42, 27);
+
+// No. 10 Write a conditional statement to sort three numbers
+
+const sortThreeNumbers = (number1, number2, number3) => {
+    (number1 > number2 && number1 > number3)
+        ? console.log(`${number1} is the largest`)
+        : (number2 > number1 && number2 > number3)
+            ? console.log(`${number2} is the largest`)
+            : console.log(`${number3} is the largest`);
+};
+
+sortThreeNumbers(42, 27, 100);

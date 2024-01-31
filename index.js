@@ -22,3 +22,11 @@ const palindrome = (text) => {
 
 palindrome("madam");
 
+// No. 3 Write a code to convert centimeter to kilometer.
+
+const centimeterToKilometer = (centimeter) => {
+    let kilometer = centimeter / 100000;
+    console.log(`${kilometer} Km`);
+};
+
+centimeterToKilometer(100000);

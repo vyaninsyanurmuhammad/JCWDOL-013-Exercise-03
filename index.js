@@ -9,3 +9,16 @@ const multiplication = (number) => {
 };
 
 multiplication(5);
+
+// No. 2 Write a code to check whether a string is a palindrome or not.
+
+const palindrome = (text) => {
+    let reverseString = text.split("").reverse().join("");
+
+    text === reverseString
+        ? console.log("It is a Palindrome")
+        : console.log("It is not a Palindrome");
+};
+
+palindrome("madam");
+

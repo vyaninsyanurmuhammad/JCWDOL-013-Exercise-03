@@ -72,3 +72,19 @@ const reverseString = (text) => {
 };
 
 reverseString("hello");
+
+// No. 8 Write a code to swap the case of each character from string
+
+const swapCase = (text) => {
+    let newText = "";
+    for (let index = 0; index < text.length; index++) {
+        newText +=
+            text[index] === text[index].toUpperCase()
+                ? text[index].toLowerCase()
+                : text[index].toUpperCase();
+    }
+    console.log(newText);
+};
+
+swapCase("The QuiCk BrOwN Fox");
+

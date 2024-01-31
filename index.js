@@ -120,3 +120,17 @@ const checkDataType = (data) => {
 };
 
 checkDataType("hello");
+
+// No. 12 Write a code to change every letter a into * from a string of input
+
+const changeAtoStar = (text) => {
+    const textLowerCase = text.toLowerCase();
+    let newText = "";
+
+    for (let index = 0; index < textLowerCase.length; index++) {
+        newText += textLowerCase[index] === "a" ? "*" : textLowerCase[index];
+    }
+    console.log(newText);
+};
+
+changeAtoStar("An apple a day keeps the doctor away");

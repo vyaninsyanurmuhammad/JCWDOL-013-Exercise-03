@@ -39,3 +39,12 @@ const formatCurrencyIDR = (number) => {
 };
 
 formatCurrencyIDR(1000);
+
+// No. 5 write a code to remove the first occurrence of a given “search string” from a string
+
+const removeFirstOccurrence = (text, searchText) => {
+    let newString = text.replace(searchText, "");
+    console.log(newString);
+};
+
+removeFirstOccurrence("Hello world", "ell");

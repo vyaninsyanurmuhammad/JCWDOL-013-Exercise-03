@@ -88,3 +88,12 @@ const swapCase = (text) => {
 
 swapCase("The QuiCk BrOwN Fox");
 
+// No. 9 Write a code to find the largest of two given integers
+
+const largestOfTwo = (number1, number2) => {
+    number1 > number2
+        ? console.log(`${number1} is the largest`)
+        : console.log(`${number2} is the largest`);
+};
+
+largestOfTwo(42, 27);

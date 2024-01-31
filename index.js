@@ -48,3 +48,18 @@ const removeFirstOccurrence = (text, searchText) => {
 };
 
 removeFirstOccurrence("Hello world", "ell");
+
+// No. 6 Write a code to capitalize the first letter of each word in a string
+
+const capitalizeFirstLetter = (text) => {
+    let splitedText = text.split(" ");
+    let splitedResultText = [];
+    for (let index = 0; index < splitedText.length; index++) {
+        splitedResultText.push(
+            splitedText[index].charAt(0).toUpperCase() + splitedText[index].slice(1),
+        );
+    }
+    console.log(splitedResultText.join(" "));
+};
+
+capitalizeFirstLetter("hello world");

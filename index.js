@@ -63,3 +63,12 @@ const capitalizeFirstLetter = (text) => {
 };
 
 capitalizeFirstLetter("hello world");
+
+// No. 7 Write a code to reverse a string
+
+const reverseString = (text) => {
+    let newText = text.split("").reverse().join("");
+    console.log(newText);
+};
+
+reverseString("hello");
